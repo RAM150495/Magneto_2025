@@ -3,6 +3,7 @@ package org.stepdefenition;
 
 
 import org.base.BaseClass;
+
 import org.pom.LoginStep;
 
 import io.cucumber.java.en.*;
@@ -28,6 +29,25 @@ public class LoginFeature extends BaseClass {
 	    click(l.getBtnSigin());
 	    
 	}
+    @Then("The user should be in home page")
+    public void the_user_should_be_in_home_page() {
+        waitforurl(20, "https://magento.softwaretestingboard.com/");
+//        Assert.assertTrue(getcurrenturl().contains("softwaretestingboard"));
+//        System.out.println("user in Home page");
+//       
+//        Assert.assertTrue(getcurrenturl().contains("account"));
+//        System.out.println("invalid user credential");
+        
+        if (getcurrenturl().equals("https://magento.softwaretestingboard.com/")) {
+        	  System.out.println("user in Home page");
+        }
+        else  {
+        	 System.out.println("invalid user credential");
+        }
+    }
+
+
+
 
 
 

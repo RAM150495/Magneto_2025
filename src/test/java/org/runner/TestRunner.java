@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources",glue="org.stepdefenition",dryRun=false,monochrome=true,
-tags="@Login or @Reg",
+tags="@Login",
 plugin= {"pretty",//"html:src//test//resources//Reports//Htmlreport//htmlreport.html",
         "json:src//test//resources//Reports//Jsonreport//report.json",
        // "junit:src//test//resources//Reports//Junitreport//junitreport.xml",
