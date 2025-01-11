@@ -1,0 +1,18 @@
+
+@Login
+Scenario Outline: To Validate User valid and invalid Login in Magento Application # src/test/resources/Features/Login.feature:13
+  When The user has to click sigin in button                                      # org.stepdefenition.LoginFeature.the_user_has_to_click_sigin_in_button()
+  And The user has to enter "ramaneeyan154@gmail.com" and "ram15495"              # org.stepdefenition.LoginFeature.the_user_has_to_enter_and(java.lang.String,java.lang.String)
+  Then The user has to click signin button                                        # org.stepdefenition.LoginFeature.the_user_has_to_click_signin_button()
+
+@Login
+Scenario Outline: To Validate User valid and invalid Login in Magento Application # src/test/resources/Features/Login.feature:14
+  When The user has to click sigin in button                                      # org.stepdefenition.LoginFeature.the_user_has_to_click_sigin_in_button()
+  And The user has to enter "frank3421@gmail.com" and "fas@11234"                 # org.stepdefenition.LoginFeature.the_user_has_to_enter_and(java.lang.String,java.lang.String)
+  Then The user has to click signin button                                        # org.stepdefenition.LoginFeature.the_user_has_to_click_signin_button()
+
+@Login
+Scenario Outline: To Validate User valid and invalid Login in Magento Application # src/test/resources/Features/Login.feature:15
+  When The user has to click sigin in button                                      # org.stepdefenition.LoginFeature.the_user_has_to_click_sigin_in_button()
+  And The user has to enter "elam123@gmail.com" and "ela345"                      # org.stepdefenition.LoginFeature.the_user_has_to_enter_and(java.lang.String,java.lang.String)
+  Then The user has to click signin button                                        # org.stepdefenition.LoginFeature.the_user_has_to_click_signin_button()
